@@ -9,8 +9,8 @@
   </head>
   <body>
 	<h1>TigerLadyIRL development</h1>
-    <img src="images/dog.png" alt="Image of a lumbar or dog" height = "250">
-	<p> This is a test website I am using to develope: </p> 
+    <img src="http://clipartcow.com/wp-content/uploads/2016/02/Clipart-dog-house-free-clipart-images.png" alt="Image of a lumbar or dog" height = "250">
+	<p> This is a test website I am using to develope and practice: </p> 
 
 	<ul>
 		<li>HTML</li>
@@ -22,5 +22,20 @@
 	
 	<button>Change user</button>
 	<script src="scripts/helloworld.js"></script>
+	
+	<form>
+		<input type="text" id="imagename" value="" />
+		<input type="button" id="btn" value="GO" />
+	</form>	
+	<script type="text/javascript">
+        document.getElementById('btn').onclick = function() {
+            var val = document.getElementById('imagename').value,
+                src = 'http://i.imgur.com/VcuP0QQ.png',
+                img = document.createElement('img');
+
+            img.src = src;
+            document.body.appendChild(img);
+        }
+    </script>
   </body>
 </html>

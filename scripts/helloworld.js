@@ -2,10 +2,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/dog.png') {
-      myImage.setAttribute ('src','images/lumbar.gif');
+    if(mySrc === 'http://clipartcow.com/wp-content/uploads/2016/02/Clipart-dog-house-free-clipart-images.png') {
+      myImage.setAttribute ('src','http://cfile233.uf.daum.net/image/2613453656989FDB0E2425');
     } else {
-      myImage.setAttribute ('src','images/dog.png');
+      myImage.setAttribute ('src','http://clipartcow.com/wp-content/uploads/2016/02/Clipart-dog-house-free-clipart-images.png');
     }
 }
 
